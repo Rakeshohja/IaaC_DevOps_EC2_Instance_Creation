@@ -1,5 +1,3 @@
----
-
 ````markdown
 # Terraform EC2 Setup
 
