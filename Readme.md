@@ -1,7 +1,5 @@
 ---
 
-### **README.md**
-
 ````markdown
 # Terraform EC2 Setup
 
