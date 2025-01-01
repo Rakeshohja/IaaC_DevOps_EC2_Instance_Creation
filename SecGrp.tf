@@ -9,7 +9,7 @@ resource "aws_security_group" "firstinstance-gp" {
 
 resource "aws_vpc_security_group_ingress_rule" "firstinstance-gp_ipv4" {
   security_group_id = aws_security_group.firstinstance-gp.id
-  cidr_ipv4         = "174.89.198.165/32"
+  cidr_ipv4         = "Your IP Here"
   from_port         = 22
   ip_protocol       = "tcp"
   to_port           = 22
